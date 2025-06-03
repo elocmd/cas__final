@@ -35,7 +35,7 @@ clean-targets:         # directories to be removed by dbt clean
 # using the {{ config(...) }} macro.
 
 models:
-  my_new_project:
+  cicd_formation3:
     # Applies to all files under models/example/
     example:
       +materialized: table
